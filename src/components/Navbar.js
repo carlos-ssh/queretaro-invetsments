@@ -14,10 +14,10 @@ const Nav = styled.nav`
 	z-index: 100;
 	position: fixed;
 	width: 100%;
-  background-color: #FFCB05;
-	box-shadow: -2px 6px 5px 0px rgba(0,0,0,0.25);
+  /* background-color: #FFCB05; */
+	/* box-shadow: -2px 6px 5px 0px rgba(0,0,0,0.25);
 	-webkit-box-shadow: -2px 6px 5px 0px rgba(0,0,0,0.25);
-	-moz-box-shadow: -2px 6px 5px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: -2px 6px 5px 0px rgba(0,0,0,0.25); */
 `;
 
 const NavLink = css`

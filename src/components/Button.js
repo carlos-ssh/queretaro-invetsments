@@ -23,8 +23,8 @@ const Button = styled(Link)`
   &:hover {
     transform: translateY(-2px);
     box-shadow: -2px 6px 5px 0px rgba(0,0,0,0.25);
-	  -webkit-box-shadow: -2px 6px 5px 0px rgba(0,0,0,0.25);
-	  -moz-box-shadow: -2px 6px 5px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: -2px 6px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: -2px 6px 5px 0px rgba(0,0,0,0.25);
   }
 `;
 
