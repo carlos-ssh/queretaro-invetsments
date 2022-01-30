@@ -141,7 +141,7 @@ function Hero({ slides }) {
         setCurrent(current => (current === length - 1 ? 0 : current + 1))
       };
 
-      timeout.current = setTimeout(nextSlide, 2800);
+      timeout.current = setTimeout(nextSlide, 3800);
 
       return function() {
         if(timeout.current){
