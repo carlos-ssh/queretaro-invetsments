@@ -78,11 +78,11 @@ const NavBtn = styled.div`
 	}
 `;
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return(
     <Nav>
       <Logo to="/">Queretaro Investments</Logo>
-			<MenuBars />
+			<MenuBars onClick={toggle}/>
 			<NavMenu>
 				{menuData.map((item, index) => (
 					<NavMenuLinks
